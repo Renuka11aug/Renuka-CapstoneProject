@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(220, 235, 245);
+
+}
+.header{
+    /* background-color:  rgba(0, 140, 254, 0.3); */
+    background-color: rgba(255, 255, 255, 0.80);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.2fr 2fr;
+    grid-template-rows: 75px;
+    position: sticky;
+    top:0px; 
+    z-index: 1000;
+}
+#headerImg{
+    position: sticky;
+    top:0; 
+    z-index: 1000;
+    width: 80px;
+    height: 80px;
+    padding: 0px 0px;
+    margin: 0 auto;
+}
+#headerTitle{
+    font-size: 40px;
+    display: inline;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#headerKM{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+}
+#headerCM{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+}
+#headerYM{
+    font-weight: bold;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+}
+#headerBA{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    letter-spacing: -1px;
+    word-spacing: -2px;
+    background-color: rgb(0, 140, 254);
+    text-align: center;
+    color: white;
+    border-radius: 2px;
+    right: 0%;
+}
+#headerBA:hover{
+    cursor: pointer;
+    color: rgb(89, 88, 88);
+    background-color: rgb(253, 176, 33);
+}
+#headerYM:hover{
+    cursor: pointer;
+    color: rgb(0, 140, 254);
+    text-decoration: underline;
+}
+#headerKM:hover{
+    cursor: pointer;
+    color: rgb(0, 140, 254);
+    text-decoration: underline;
+}
+#headerCM:hover{
+    cursor: pointer;
+    color: rgb(0, 140, 254);
+    text-decoration: underline;
+}
+.landingImg{
+    display: grid;
+}
+.landingImg img {
+    width: 1500px;
+    height: 800px;
+    /* margin-left:500px ; */
+    position: absolute;
+    top: 0%;
+}
+#landingJN{
+    z-index: 10;
+    font-size: 60px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    position:absolute;
+    top: 45%;
+    left: 7%;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+#landingJN:hover{
+    cursor: pointer;
+    color: rgb(77, 77, 77);
+    background-color: rgb(253, 179, 43);
+}
+
