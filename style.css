@@ -84,16 +84,19 @@ body, html {
     cursor: pointer;
     color: rgb(0, 140, 254);
     text-decoration: underline;
+    text-underline-offset: 5px;
 }
 #headerKM:hover{
     cursor: pointer;
     color: rgb(0, 140, 254);
     text-decoration: underline;
+    text-underline-offset: 5px;
 }
 #headerCM:hover{
     cursor: pointer;
     color: rgb(0, 140, 254);
     text-decoration: underline;
+    text-underline-offset: 5px;
 }
 .landingImg{
     margin-top: -75px;
@@ -131,14 +134,17 @@ body, html {
     color: rgb(70, 70, 70);
 }
 #ElaImag{
-    width: 700;
-    height: 450;
+    width: 700px;
+    height: 450px;
 }
 #ElaTxt h2{
     font-size: 40px;
+    font-family: 'sans-serif';
+    font-weight: 500;
 }
 #ElaTxt p{
     font-size: 25px;
+    font-weight:lighter;
 }
 #ElaTxt a{
     font-size: 30px;
@@ -199,4 +205,11 @@ ul li::marker {
   color: rgb(39, 138, 220); 
   font-size: 1.5em;     
   font-weight: bold;
+}
+
+
+/* who we are page */
+.WWRimg img{
+    margin-top: -75px;
+    padding-top: 0;
 }
